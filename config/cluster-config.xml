@@ -8,13 +8,13 @@
 
         <!--<property name="gridLogger">-->
             <!--<bean class="org.apache.ignite.logger.log4j2.Log4J2Logger">-->
-                <!--<constructor-arg type="java.lang.String" value="/Users/prachig/myexamples/config/ignite-log4j2.xml"/>-->
+                <!--<constructor-arg type="java.lang.String" value="/Users/prachig/logger-example/config/ignite-log4j2.xml"/>-->
             <!--</bean>-->
         <!--</property>-->
 
         <!--<property name="gridLogger">-->
             <!--<bean class="org.apache.ignite.logger.log4j.Log4JLogger">-->
-                <!--<constructor-arg type="java.lang.String" value="/Users/prachig/myexamples/config/ignite-log4j.xml"/>-->
+                <!--<constructor-arg type="java.lang.String" value="/Users/prachig/logger-example/config/ignite-log4j.xml"/>-->
             <!--</bean>-->
         <!--</property>-->
 
@@ -22,7 +22,7 @@
             <bean class="org.apache.ignite.logger.jcl.JclLogger">
                 <constructor-arg type="org.apache.commons.logging.Log">
                     <bean class="org.apache.commons.logging.impl.Log4JLogger">
-                        <constructor-arg type="java.lang.String" value="/Users/prachig/myexamples/config/ignite-log4j.xml"/>
+                        <constructor-arg type="java.lang.String" value="/Users/prachig/logger-example/config/ignite-log4j.xml"/>
                     </bean>
                 </constructor-arg>
             </bean>
